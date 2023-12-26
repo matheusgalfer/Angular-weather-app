@@ -1,27 +1,36 @@
-# WeatherApp
+# Weather App
+## Descrição
+O Weather App é um projeto Angular que permite aos usuários obterem informações detalhadas sobre o clima de uma cidade específica. A aplicação utiliza o Node.js na versão 18.19.0 como runtime e Angular CLI na versão 15.2.10 para o desenvolvimento e gerenciamento do projeto.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.10.
+## Funcionalidades
+Busca de Informações do Tempo: Os usuários podem inserir o nome de uma cidade e receberão informações em tempo real sobre a temperatura atual, temperatura máxima, temperatura mínima e velocidade dos ventos.
+## Tecnologias Utilizadas
 
-## Development server
+ - Node.js (v18.19.0)
+ - Angular CLI (v15.2.10)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Configuração do Projeto
+Certifique-se de ter o Node.js instalado na versão 18.19.0. Utilize o seguinte comando para instalar as dependências do projeto:
 
-## Code scaffolding
+```console
+npm install
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Executando o Projeto
 
-## Build
+Para iniciar o aplicativo, utilize o seguinte comando:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```console
+ng install
+```
 
-## Running unit tests
+Acesse a aplicação em seu navegador através do endereço http://localhost:4200/.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## API de Clima
+O Weather App utiliza uma API externa [OpenWeatherMap](https://openweathermap.org/) para obter informações detalhadas sobre o clima. Certifique-se de criar uma conta e configurar corretamente a chave de API necessária para acessar os serviços de clima.
 
-## Running end-to-end tests
+## Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para reportar problemas, sugerir melhorias ou enviar pull requests.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Licença
+Este projeto está licenciado sob a MIT License.
